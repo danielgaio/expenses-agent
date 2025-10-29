@@ -1,0 +1,56 @@
+{
+  "common": {
+    "appName": "Expenses Agent",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?"
+  },
+  "capture": {
+    "title": "Add Transaction",
+    "takePhoto": "Take Photo",
+    "recordAudio": "Record Audio",
+    "recordVideo": "Record Video",
+    "typeText": "Type Text",
+    "processing": "Processing...",
+    "reviewAndConfirm": "Review and Confirm"
+  },
+  "transaction": {
+    "expense": "Expense",
+    "income": "Income",
+    "investment": "Investment",
+    "amount": "Amount",
+    "date": "Date",
+    "category": "Category",
+    "merchant": "Merchant",
+    "notes": "Notes",
+    "status": "Status",
+    "realized": "Realized",
+    "planned": "Planned"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "overview": "Overview",
+    "byCategory": "By Category",
+    "trends": "Trends",
+    "projections": "Projections"
+  }
+}

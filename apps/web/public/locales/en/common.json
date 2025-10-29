@@ -1,0 +1,48 @@
+{
+  "common": {
+    "appName": "Expenses Agent",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "recentTransactions": "Recent Transactions",
+    "analytics": "Analytics",
+    "budget": "Budget"
+  },
+  "transaction": {
+    "add": "Add Transaction",
+    "expense": "Expense",
+    "income": "Income",
+    "investment": "Investment",
+    "amount": "Amount",
+    "date": "Date",
+    "category": "Category",
+    "merchant": "Merchant",
+    "notes": "Notes",
+    "status": "Status",
+    "realized": "Realized",
+    "planned": "Planned"
+  }
+}

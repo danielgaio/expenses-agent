@@ -1,0 +1,48 @@
+{
+  "common": {
+    "appName": "Agente de Despesas",
+    "welcome": "Bem-vindo",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "done": "Concluído"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signUp": "Cadastrar",
+    "signOut": "Sair",
+    "email": "E-mail",
+    "password": "Senha",
+    "forgotPassword": "Esqueceu a senha?",
+    "dontHaveAccount": "Não tem uma conta?",
+    "alreadyHaveAccount": "Já tem uma conta?"
+  },
+  "dashboard": {
+    "title": "Painel",
+    "overview": "Visão Geral",
+    "recentTransactions": "Transações Recentes",
+    "analytics": "Análise",
+    "budget": "Orçamento"
+  },
+  "transaction": {
+    "add": "Adicionar Transação",
+    "expense": "Despesa",
+    "income": "Receita",
+    "investment": "Investimento",
+    "amount": "Valor",
+    "date": "Data",
+    "category": "Categoria",
+    "merchant": "Estabelecimento",
+    "notes": "Observações",
+    "status": "Status",
+    "realized": "Realizado",
+    "planned": "Planejado"
+  }
+}
