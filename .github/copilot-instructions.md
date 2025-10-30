@@ -34,6 +34,19 @@ describe('formatCurrency', () => {
 ```
 Run tests: `npm test`, `npm run test:unit`, `npm run test:e2e`
 
+**IMPORTANT**: After making relevant code changes, ALWAYS run the related tests to verify:
+```bash
+# For specific package changes
+cd packages/[package-name] && npm test
+
+# For specific test file
+npm test -- path/to/test.test.ts
+
+# Watch mode during development
+npm test -- --watch
+```
+If tests fail, fix them before proceeding. If the change is significant, tests must pass before considering the task complete.
+
 ### 2. Row-Level Security (RLS) First
 All database access is protected by RLS policies based on household membership and user roles:
 - **Roles**: `owner`, `adult`, `child`, `viewer`
@@ -191,11 +204,17 @@ npm run typecheck            # TypeScript check
 
 ## AI Features Implementation Status
 
-🚧 **In Progress**: AI extraction services in `packages/ai/` are placeholders - implement using OpenAI APIs:
-- `extractFromImage()` - Vision API for OCR
-- `extractFromAudio()` - Whisper API for STT
-- `extractFromText()` - GPT-4 for NLP
-- `categorize()` - GPT-4 for smart categorization
+✅ **Completed**: Core AI extraction services in `packages/ai/src/extraction/`:
+- `ImageExtractor` - Vision API for OCR (13 tests)
+- `AudioExtractor` - Whisper API for STT (13 tests)
+- `TextExtractor` - GPT-4 for NLP (17 tests)
+- 43 comprehensive tests following TDD
+
+🚧 **Next Steps**:
+- Create Supabase Edge Functions for server-side AI calls
+- Implement file upload to Supabase Storage
+- Integrate with mobile/web UI
+- `categorize()` - GPT-4 for smart categorization (planned)
 
 ## Questions to Ask Before Implementing
 
